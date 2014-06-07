@@ -1,4 +1,4 @@
-MaxMind-DB-Writer-FromTextFile version 0.01
+MaxMind-DB-Writer-FromTextFile version 0.02
 =============================
 
 Create MaxMind DB from text file
@@ -14,9 +14,7 @@ To install this module type the following:
 
 DEPENDENCIES
 
-This module requires these other modules and libraries:
-
-  https://github.com/maxmind/MaxMind-DB-Writer-perl
+  MaxMind::DB::Writer
 
 COPYRIGHT AND LICENCE
 

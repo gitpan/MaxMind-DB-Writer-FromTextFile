@@ -7,7 +7,7 @@ WriteMakefile(
         'Net::Works::Network'       => 0.16,
         'MaxMind::DB::Reader'       => 0.050005,
         'MaxMind::DB::Reader::XS'   => 0.060004,
-        'MaxMind::DB::Writer::Tree' => 0,
+        'MaxMind::DB::Writer'       => 0,
     },
     (
         $] >= 5.005

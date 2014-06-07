@@ -4,3 +4,6 @@ Revision history for Perl extension MaxMind::DB::Writer::FromTextFile.
 	- original version; created by h2xs 1.23 with options
 		-A -X -b 5.8.8 -n MaxMind::DB::Writer::FromTextFile
 
+0.02  Sat Jun  7 23:23:08 2014
+	- MaxMind::DB::Writer is on CPAN now
+

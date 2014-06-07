@@ -10,7 +10,7 @@ use Net::Works::Network;
 require Exporter;
 our @ISA       = qw(Exporter);
 our @EXPORT_OK = qw(mmdb_create);
-our $VERSION   = '0.01';
+our $VERSION   = '0.02';
 
 sub mmdb_create {
     my $input_filename = shift;
@@ -80,19 +80,13 @@ Input text file should looks like below.
   39.192.0.0/10 "abroad|abroad"
   40.0.0.0/9 "abroad|USA"
 
-=head1 DEPENDENCIES
-
-Must install https://github.com/maxmind/MaxMind-DB-Writer-perl first.
-
-  cpanm git://github.com/maxmind/MaxMind-DB-Writer-perl.git
-
 =head2 EXPORT
 
 None by default.
 
 =head1 SEE ALSO
 
-L<MaxMind::DB::Reader>, L<MaxMind::DB::Reader::XS>, L<https://github.com/maxmind/MaxMind-DB-Writer-perl>
+L<MaxMind::DB::Reader>, L<MaxMind::DB::Reader::XS>, L<MaxMind::DB::Writer>
 
 =head1 AUTHOR
 
